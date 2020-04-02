@@ -25,8 +25,8 @@ def train(iterations):
     v3 = []
 
     for i in tqdm(range(iterations)):
-        i = 0
-        flip = coin(1000,10)
+        i = 1
+        flip = coin(1000*i,10)
         flip.flip_coins()
         flip.get_proportions_head()
         c1 = 0
