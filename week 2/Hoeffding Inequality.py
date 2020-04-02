@@ -41,6 +41,7 @@ def train(iterations):
 
 v1,v2, v3 = train(10000)
 
+"""
 for v, name  in zip([v1,v2,v3],["v1","v2","v3"]):
     print("{}".format(name), "has a mean of" ,np.mean(v))
 
@@ -48,7 +49,16 @@ sns.distplot(v1)
 sns.distplot(v2)
 sns.distplot(v3)
 plt.show()
+"""
 
+"""
+means after 100000 runs:
+
+v1: .50168
+v2: .50152
+v3: .03763
+
+"""
 
 
 
